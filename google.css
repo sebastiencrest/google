@@ -1,0 +1,182 @@
+html{
+	height: 100%;
+	 width: 100%; }
+	 #barderecherche {
+	 	display: grid;
+	 	grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
+    	grid-template-rows: 50px;
+    	grid-template-areas: 
+    	"A propos du magasin . gmail image menu inscription"
+    	margin:0 50px 0 30px;
+	 }
+
+	 a, p {
+	 	text-decoration: none;
+	 	color:rgba(0,0,0,0.87);
+	 	font-size: 13px;
+	 	font-family: Arial, Helvetica, sans-serif;
+	 }
+	 	a:basdepage {
+	 		text-decoration: underline;
+	 	}
+	 	#apropos {
+	 		grid-area: apropos;
+	 		justify-content: center;
+	 		align-self: center;
+	 		margin-top: 30px;
+	 		margin-right: 20px;
+
+
+	 	}
+
+	 	#magasin {
+	 		grid-area: magasin;
+	 		justify-content: center;
+	 		align-self: center;
+	 		margin-top: 120px;
+	 	}
+
+	 	#gmail {
+	 		grid-area: gmail;
+	 		justify-content: center;
+	 		align-self: center;
+	 		margin-top: 90px;
+	 	}
+	 	#image {
+    	grid-area: image;
+    	justify-content:center;
+    	align-self: center;
+    	margin-right: 10px;
+    	margin-top: 60px;
+		}
+		#menu {
+    	grid-area: menu;
+    	justify-content: center;
+    	align-self: center;
+    	margin-right: 200px;
+    	margin-top: -20px;
+    	}
+    	#inscription   {
+    	grid-area: Inscription.. ;
+    	justify-content: center;
+    	align-self: center;
+    	background-color: #4683ea;
+    	height: 28px;
+    	width: 60px;
+    	line-height: 20px;
+    	text-align: center;
+    	color: white;
+    	font-weight: bold;
+    	border: 2px solid #4285f4;
+    	margin-right: 20px;
+    	}
+
+    	#pricipale {
+    	min-height: 100%;
+    	display: grid;
+    	grid-template-columns: 1fr 1fr 1fr;
+    	grid-template-rows: 250px 70px 70px 250px;
+    	grid-template-areas: 
+    	". logo ."
+    	". recherche ."
+    	". flexbox .";
+    	marker-right: 500px;
+    
+		}
+		#logo {
+    	grid-area: logo;
+    	justify-self: center;
+    	align-self: end;
+		}
+		#recherche {
+    	grid-area: recherche;
+    	height: 30px;
+    	width: 80%;
+    	align-self: center;
+    	justify-self: center;
+    	border: 1px solid rgba(0, 0, 0, 0.151);
+    	border-radius: 30px;
+		}
+
+		#recherche:focus {
+    	box-shadow: 1px 1px 5px grey;
+		}
+		#recherche:basdepage {
+    	box-shadow: 1px 1px 5px grey;
+		}
+		#flexbox {
+    	display: flexbox;
+    	grid-area: flexbox;
+    	justify-content: center;
+    	align-self: center;
+    }
+
+		#recherche-btn {
+    	border: none;
+    	font-size: 15px;
+    	color: #5F6368;
+    	margin-right: 25px;
+    	padding: 7px 15px 7px 15px;
+    	border-radius: 3px;
+		}
+
+	
+		#recherche-btn:basdepage {
+    	border: 1px solid rgba(0, 0, 0, 0.226);
+        }
+
+    	
+
+    	#basdepage {
+    	position: absolute;
+    	bottom: 0;
+    	display: grid;
+    	grid-template-columns: 100px 100px 150px 1330px 70px 70px 70px;
+    	grid-template-rows: 50px;
+    	grid-template-areas: 
+    	"publicité entreprise commentcamarche . confidentialité conditions parametre";
+		}
+
+		#publicité {
+    	grid-area: Publicité;
+    	justify-content: center;
+    	align-self: center;
+		}
+		#entreprise {
+    	grid-area: Entreprise;
+    	justify-content: center;
+    	align-self: center;
+		}
+
+		#confidentialité {
+    	grid-area: Confidentialité;
+    	justify-content: center;
+    	align-self: center;
+		}
+
+		#commentcamarche {
+    	grid-area: Comment fonctionne la recherche Google?;
+    	justify-content: center;
+    	align-self: center;
+		}
+		#conditions {
+    	grid-area: Conditions;
+    	justify-content: center;
+    	align-self: center;
+		}
+		#parametre {
+    	grid-area: Parametres;
+    	justify-content: center;
+    	align-self: center;
+    	margin-right: 1000px;
+		}
+		
+
+
+
+	
+
+
+
+
+
